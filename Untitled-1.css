@@ -1,0 +1,125 @@
+header{
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #cce9f0;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+#about
+{
+font-style: italic;
+}
+.paragraphy
+{
+    font-style: inherit;
+}
+
+.button
+ {
+    background-color: white; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 1px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 5px; /* Rounded corners */
+    transition-duration: 1s; /* 0.4 second transition effect to hover state */
+}
+
+.button:hover {
+    background-color: white; /* White background on hover */
+    color: #4CAF50; /* Green text on hover */
+    border: 2px solid #4CAF50; /* Green border on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.Register
+{
+    text-align: center;
+}
+.Register.button:hover
+{
+    cursor: pointer;
+    border: #333;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}
+
+
