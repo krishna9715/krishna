@@ -10,7 +10,10 @@ const userSchema = new mongoose.Schema({
   address: { type: String, default: '' },
   phone: { type: String, default: '' },
   email: { type: String, default: '' },
+  profile_img: { type: String, default: '' },
+  aadhar_photo: { type: String, default: '' }, // Aadhar photo URL
+  license_photo: { type: String, default: '' }, // Driving License photo URL
+  driving_license_no: { type: String, default: '' }, // Driving License number
 });
-
 
 module.exports = mongoose.model('User', userSchema);
