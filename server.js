@@ -4,6 +4,7 @@ const cors = require('cors');
 const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const formRoutes = require('./routes/formRoutes');
+const dropdownDataRoutes = require('./routes/dropdownDataRoutes'); 
 
 // Load environment variables
 dotenv.config();
@@ -18,6 +19,7 @@ app.use(cors());
 // Routes
 app.use('/api/users', userRoutes);
 app.use('/api/forms', formRoutes);
+app.use('/api/dropdownData', dropdownDataRoutes); 
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
