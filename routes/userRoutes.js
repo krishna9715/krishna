@@ -8,7 +8,7 @@ const initializeUsers = async () => {
       emp_id: "EMP001",
       name: "Admin User",
       username: "admin",
-      password: "admin123",
+      password: "Erdproperty2024#",
       role: "admin",
       profile_img: "",
       aadhar_photo: "",
